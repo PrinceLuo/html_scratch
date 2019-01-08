@@ -5,7 +5,7 @@ be some new knowledge or something worth being reminded. Good luck.
 
 20181218
 
-tag <hr /> a line
+tag &lthr /&lt a line
 
 tag <br /> shift into a new line
 
@@ -20,3 +20,7 @@ tools, and ready to send an email (not recommand)
 
 tag <a href="www.baidu.com" title="China top search engine"> attribute, it will
 be shown when hovering it
+
+<ul> each list start with a point; <ol> each list start with a number
+
+css: line-height means the line gap
