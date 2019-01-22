@@ -10,43 +10,125 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style type="text/css">
+            body {
+                /*                background-color: blue;*/
+                /*color: white;*/
+                /*background-image: url(/images/dynamic/destiny.jpg);*/
+                /*background-repeat:no-repeat;*/
+                /*background-repeat: repeat-x;*/
+                /*background-repeat: no-repeat;*/
+                /*background-position: 10px 40px;*/
+                /*background-position: 50% 40px;*/
+
+            }
             h1 {
                 color:#000099;
+                text-align: center;
             }
             p {
                 line-height: 150%;
+                text-indent: 25px;
             }
-            
+
             ul {
-                
+                font-weight: bold;
+            }
+            ol {
+                font-style: italic;
+            }
+            h2 {
+                background-color: yellow;
+                /*padding: 20px;*/
+                padding-top: 30px;
+                padding-bottom: 20px;
+                /*                border-color: red;
+                                border-width:3px;
+                                border-style:dashed;*/
+                border-top-color:green;
+                border-top-style:dotted;
+                /*border-top-width:4px;*/
+                border:3px solid black;
+            }
+            .margin_test {
+                background-color:orange;
+                margin-left:40px;
+            }
+            a:link {
+                color:red;
+                text-decoration: none;
+            }
+            a:visited {
+                color:green;
+            }
+            a:hover {
+                background-color: blue;
+                color: white;
+                text-decoration: underline;
+                font-weight: bold;
+            }
+            a:active {
+                background-color: orange;
+            }
+            table {
+                border:3px solid blue;
+
+            }
+            tr {
+                background-color: yellow;
+            }
+            td {
+                border: 2px dashed red;
+            }
+            ul {
+                list-style-type:hiragana-iroha;
             }
         </style>
     </head>
     <body>
         <h1>A title</h1>
         <p>This is something meaningless. Please do not 
-                waste any time on reading this. PAY ATTENTION!!!In this HTML and 
-                CSS course/tutorial for beginners, designed, authored and hosted 
-                by master trainer Mark Lassoff, you will learn HTML and CSS, including 
-                everything you need to create a creative, quality and professional 
-                web site. Almost four hours of video instruction in punctuated 
-                lab exercises where you apply the very skills taught in the course. 
-                With an instructor available to answer your questions, and course 
-                with both wide coverage of HTML and CSS topics and deep discussion 
-                of those topics, there is no better or faster way to learn HTML 
-                and CSS for Beginners!</p>
-        
+            waste any time on reading this. PAY ATTENTION!!!In this HTML and 
+            CSS course/tutorial for beginners, designed, authored and hosted 
+            by master trainer Mark Lassoff, you will learn HTML and CSS, including 
+            everything you need to create a creative, quality and professional 
+            web site. Almost four hours of video instruction in punctuated 
+            lab exercises where you apply the very skills taught in the course. 
+            With an instructor available to answer your questions, and course 
+            with both wide coverage of HTML and CSS topics and deep discussion 
+            of those topics, there is no better or faster way to learn HTML 
+            and CSS for Beginners!</p>
+
         <ul>
-                <li>New sunglasses</li>
-                <li>New computers</li>
-                <li>New paintings</li>
-                <li>Microwave</li>
-            </ul>
-            <ol>
-                <li>New sunglasses</li>
-                <li>New computers</li>
-                <li>New paintings</li>
-                <li>Microwave</li>
-            </ol>
+            <li>New sunglasses</li>
+            <li>New computers</li>
+            <li>New paintings</li>
+            <li>Microwave</li>
+            <li>Mirror</li>
+        </ul>
+        <ol>
+            <li>New sunglasses</li>
+            <li>New computers</li>
+            <li>New paintings</li>
+            <li>Microwave</li>
+        </ol>
+        <br><br>
+        <h2>This is a padding demo</h2>
+        <div class="margin_test">
+            <p>This is a paragraph.</p>
+            <p>This is a paragraph.</p>
+        </div>
+        <table>
+            <tr>
+                <td>I love Steam</td>
+                <td>I love Steam</td>
+                <td>I love Steam</td>
+            </tr>
+            <tr>
+                <td>I love Steam</td>
+                <td>I love Steam</td>
+                <td>I love Steam</td>
+            </tr>
+        </table>
+        <a href="https://www.youtube.com">YouTube</a>
     </body>
 </html>

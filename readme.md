@@ -5,22 +5,50 @@ be some new knowledge or something worth being reminded. Good luck.
 
 20181218
 
-tag &lthr /&lt a line
+tag &lt;hr&nbspace;/&gt; means a line
 
-tag <br /> shift into a new line
+tag &lt;br&nbspace;/&gt; means shifting into a new line
 
-tag <strong> bold
+tag &lt;strong&gt; means bold
 
-tag <em> makes text displayed in italics by the browser
+tag &lt;em&gt; makes text displayed in italics by the browser
 
-tag <a name="#fragment"></a> fragment, combo with a link that target to the fragment
+tag &lt;a&gt; name="#fragment" fragment, combo with a link that target to the fragment
 
-tag <a href="mailto:luoruichun1990@gmail.com"> will activate your local email
+tag &lt;a href="mailto:luoruichun1990@gmail.com"&gt; will activate your local email
 tools, and ready to send an email (not recommand)
 
-tag <a href="www.baidu.com" title="China top search engine"> attribute, it will
+tag &lt;a href="www.baidu.com" title="China top search engine"&gt; attribute, it will
 be shown when hovering it
 
-<ul> each list start with a point; <ol> each list start with a number
+tag &lt;ul&gt;: each list start with a point; 
+tag &lt;ol&gt;: each list start with a number
 
 css: line-height means the line gap
+	font-style measn the style the word shows
+	text-align means the position
+	text-indent specifies the indentation of the first line in a text-block
+	
+	inside body (which means the whole page), background-color specifies the color for the
+	background. And the color specifies the color for the elements inside the body
+	
+	body background-image: add a picture as the background; default, it will fill the 
+	background automatically, repeating itself one by one; background-repeat:no-repeat
+	and background-repeat: repeat-x could help; background-position: 10px 40px
+	
+	padding: {top} {right} {down} {left}
+	padding-top
+	
+	border: border-style     border-color     border-width
+	
+	margin:{top} {right} {down} {left}
+	margin-top
+	same as padding, if you set the first element only, all four elements will be set
+	
+	a: {state}  make a link dynamically
+	
+	table and td will inherit the tr; tr will inherit the table
+	
+	
+	
+	
