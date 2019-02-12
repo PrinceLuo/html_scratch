@@ -51,7 +51,8 @@ and open the template in the editor.
             }
             .margin_test {
                 background-color:orange;
-                margin-left:40px;
+                /*position:relative;*/
+                margin-top:100px;
             }
             a:link {
                 color:red;
@@ -80,7 +81,18 @@ and open the template in the editor.
                 border: 2px dashed red;
             }
             ul {
-                list-style-type:hiragana-iroha;
+                /*list-style-type:hiragana-iroha;*/
+                /*list-style-image:url(#your_image_path);*/
+            }
+            span {
+                font-weight: bold;
+                color:green;
+            }
+            div {
+                border:2px solid red;
+                /*position:absolute;*/
+                width: 300px;
+                /*top: 100px;*/
             }
         </style>
     </head>
@@ -130,5 +142,9 @@ and open the template in the editor.
             </tr>
         </table>
         <a href="https://www.youtube.com">YouTube</a>
+        <p>This is my first para and <span>I love carrots</span> and apple pie</p>
+        <div>
+            my name is prince
+        </div>
     </body>
 </html>
