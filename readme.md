@@ -55,7 +55,11 @@ css: line-height means the line gap
 	Overwrite: The closest one will work
 	position: absolute		【I only care about myself】
 	position: relative		【the element will strat moving from its origin position】
+	position: fixed			【the element will be placed in a fixed position in the window, no matter you roll up and down, left and right】
 	
+	I may add a 【float and clear】 into this series.
+	before understand 【before】 and 【after】, simply add clear after those float div
+	easiest way: clear at the end of every float div
 	
 	
 	
